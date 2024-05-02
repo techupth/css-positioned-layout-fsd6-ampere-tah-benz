@@ -1,1 +1,112 @@
-/* Start coding here */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --color1: #06c755;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  font-size: 36px;
+  color: aliceblue;
+  flex-basis: 10%;
+  background-color: rgba(0, 0, 0, 0.462);
+  padding: 5px 15px 5px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.right-bubble {
+  padding: 10px;
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  background-color: var(--color1);
+  position: absolute;
+
+  right: 15px;
+}
+
+.right-bubble#no1 {
+  z-index: 999;
+}
+.right-bubble#no2 {
+  top: 70px;
+  background-color: rgba(128, 128, 128, 0.215);
+  z-index: 1;
+}
+.right-bubble#no3 {
+  top: 125px;
+}
+
+.texts {
+  position: relative;
+}
+
+.triangle {
+  width: 20px;
+  height: 25px;
+  background-color: var(--color1);
+  position: absolute;
+  border-radius: 90%;
+  z-index: 1;
+
+  top: 13px;
+  right: 14px;
+}
+
+.shapper {
+  width: 20px;
+  height: 25px;
+  background-color: aliceblue;
+  position: absolute;
+  border-radius: 90%;
+  z-index: 2;
+
+  top: 4px;
+  right: 17px;
+}
+.exist {
+  width: 20px;
+  height: 25px;
+  background-color: rgba(128, 128, 128, 0.575);
+  position: absolute;
+  border-radius: 90%;
+  text-align: center;
+  color: aliceblue;
+  font-style: italic;
+  font-weight: bold;
+
+  top: -10px;
+  right: -10px;
+}
+
+.left-bubble {
+  padding: 10px;
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  background-color: gray;
+  position: absolute;
+
+  left: 15px;
+  top: 180px;
+}
+
+.left-bubble#no2 {
+  top: 235px;
+}
