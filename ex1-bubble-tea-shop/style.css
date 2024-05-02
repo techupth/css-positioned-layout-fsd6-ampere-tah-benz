@@ -1,5 +1,35 @@
+* {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  /*position: absolute;*/
+}
 body {
   font-family: "Kanit";
 }
-
-/* Start coding here */
+img {
+  border: 8px solid white;
+}
+div {
+  color: white;
+  position: relative;
+  bottom: 65px;
+  right: 160px;
+  font-size: 20px;
+  background-color: hsl(0, 1%, 60%, 0);
+}
+p {
+  color: white;
+  background-color: hsl(0, 1%, 45%);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 390px;
+  left: 260px;
+  padding: 10px;
+  font-size: 20px;
+}
